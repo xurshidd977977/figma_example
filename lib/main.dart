@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'homePage.dart';
 
 void main() {
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "FlutterDemo",
       theme: ThemeData(),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
